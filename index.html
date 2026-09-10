@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>宫外孕的费用-费用构成、影响因素与就医花费参考说明</title>
+<meta name="description" content="宫外孕的费用受治疗方式、孕周、是否破裂、医院级别、地区与医保政策等多重因素影响。本文梳理宫外孕保守治疗、药物与手术治疗的常见费用构成，说明影响花费的关键变量、医保报销思路与就医注意事项，帮助就医前做好费用与安全评估。">
+<meta name="keywords" content="宫外孕的费用,宫外孕手术费用,宫外孕保守治疗费用,宫外孕医保报销,异位妊娠费用">
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+<style>
+:root{
+  --main:#1f6f6b;
+  --main-dark:#154f4c;
+  --main-light:#e8f4f3;
+  --accent:#e07a5f;
+  --accent-light:#fdf0ec;
+  --text:#243033;
+  --text-soft:#5a6a6d;
+  --line:#dde5e4;
+  --bg:#f7faf9;
+  --white:#ffffff;
+  --radius:14px;
+  --shadow:0 6px 22px rgba(21,79,76,.08);
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  font-family:"PingFang SC","Microsoft YaHei","Hiragino Sans GB",system-ui,-apple-system,"Segoe UI",sans-serif;
+  color:var(--text);
+  background:var(--bg);
+  line-height:1.75;
+  font-size:16px;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:inherit;text-decoration:none;}
+img{max-width:100%;display:block;}
+.wrap{width:100%;max-width:1160px;margin:0 auto;padding:0 20px;}
+
+/* ---------- 顶部提示条 ---------- */
+.topbar{
+  background:var(--main-dark);
+  color:#d9ece9;
+  font-size:13px;
+  text-align:center;
+  padding:7px 16px;
+  letter-spacing:.3px;
+}
+.topbar strong{color:#fff;font-weight:600;}
+
+/* ---------- 页眉 ---------- */
+.site-header{
+  background:var(--white);
+  border-bottom:1px solid var(--line);
+  position:sticky;
+  top:0;
+  z-index:50;
+}
+.header-inner{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:18px;
+  height:70px;
+}
+.brand{display:flex;align-items:center;gap:11px;}
+.brand-mark{
+  width:40px;height:40px;border-radius:11px;
+  background:linear-gradient(140deg,var(--main),#3f9d97);
+  color:#fff;display:flex;align-items:center;justify-content:center;
+  font-size:19px;font-weight:700;letter-spacing:1px;
+  flex:none;
+}
+.brand-text b{display:block;font-size:18px;letter-spacing:.5px;}
+.brand-text span{display:block;font-size:12px;color:var(--text-soft);letter-spacing:.6px;}
+.main-nav{display:flex;gap:6px;flex-wrap:wrap;}
+.main-nav a{
+  padding:8px 13px;border-radius:9px;font-size:15px;color:var(--text-soft);
+  transition:.2s;
+}
+.main-nav a:hover{background:var(--main-light);color:var(--main-dark);}
+.nav-toggle{
+  display:none;background:none;border:1px solid var(--line);border-radius:9px;
+  padding:7px 11px;font-size:15px;color:var(--main-dark);cursor:pointer;
+}
+
+/* ---------- 首屏 ---------- */
+.hero{
+  background:linear-gradient(160deg,#eef7f6 0%,#f7faf9 60%,#fdf4f1 100%);
+  border-bottom:1px solid var(--line);
+  padding:52px 0 46px;
+}
+.hero-grid{
+  display:grid;
+  grid-template-columns:1.55fr 1fr;
+  gap:38px;
+  align-items:start;
+}
+.hero h1{
+  font-size:33px;
+  line-height:1.35;
+  letter-spacing:.5px;
+  color:var(--main-dark);
+  margin-bottom:16px;
+}
+.hero h1 em{
+  font-style:normal;
+  color:var(--accent);
+}
+.hero-lead{
+  font-size:16.5px;
+  color:#3d4c4f;
+  margin-bottom:20px;
+}
+.hero-points{list-style:none;display:grid;gap:10px;margin-bottom:24px;}
+.hero-points li{
+  position:relative;
+  padding-left:26px;
+  font-size:15px;
+  color:var(--text-soft);
+}
+.hero-points li::before{
+  content:"";
+  position:absolute;left:6px;top:9px;
+  width:8px;height:8px;border-radius:50%;
+  background:var(--main);
+}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap;}
+.btn{
+  display:inline-block;
+  padding:11px 22px;
+  border-radius:10px;
+  font-size:15px;
+  font-weight:600;
+  transition:.2s;
+  border:1px solid transparent;
+}
+.btn-primary{background:var(--main);color:#fff;}
+.btn-primary:hover{background:var(--main-dark);}
+.btn-ghost{background:#fff;color:var(--main-dark);border-color:#c6dedb;}
+.btn-ghost:hover{background:var(--main-light);}
+
+/* 首屏右侧速览卡 */
+.quick-card{
+  background:var(--white);
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  box-shadow:var(--shadow);
+  padding:22px 22px 20px;
+}
+.quick-card h2{
+  font-size:17px;
+  color:var(--main-dark);
+  margin-bottom:14px;
+  padding-bottom:11px;
+  border-bottom:1px dashed var(--line);
+}
+.quick-list{list-style:none;display:grid;gap:13px;}
+.quick-list li{font-size:14.5px;color:var(--text-soft);}
+.quick-list b{display:block;color:var(--text);font-size:15px;margin-bottom:2px;}
+.quick-note{
+  margin-top:16px;
+  background:var(--accent-light);
+  border-left:3px solid var(--accent);
+  border-radius:0 8px 8px 0;
+  padding:10px 13px;
+  font-size:13.5px;
+  color:#7a4a3b;
+}
+
+/* ---------- 通用区块 ---------- */
+.section{padding:54px 0;}
+.section.alt{background:var(--white);border-top:1px solid var(--line);border-bottom:1px solid var(--line);}
+.section-head{margin-bottom:30px;max-width:820px;}
+.section-head .eyebrow{
+  display:inline-block;
+  font-size:12.5px;
+  letter-spacing:2px;
+  color:var(--main);
+  background:var(--main-light);
+  padding:4px 12px;
+  border-radius:20px;
+  margin-bottom:12px;
+}
+.section-head h2{
+  font-size:26px;
+  color:var(--main-dark);
+  line-height:1.4;
+  margin-bottom:10px;
+}
+.section-head p{color:var(--text-soft);font-size:15.5px;}
+
+/* ---------- 费用构成 ---------- */
+.cost-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:18px;
+}
+.cost-card{
+  background:var(--white);
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  padding:22px 20px;
+  transition:.22s;
+}
+.cost-card:hover{
+  transform:translateY(-3px);
+  box-shadow:var(--shadow);
+  border-color:#c6dedb;
+}
+.cost-card .num{
+  font-size:13px;
+  font-weight:700;
+  color:#fff;
+  background:var(--main);
+  width:28px;height:28px;
+  border-radius:8px;
+  display:flex;align-items:center;justify-content:center;
+  margin-bottom:13px;
+}
+.cost-card h3{font-size:16.5px;margin-bottom:9px;color:var(--main-dark);}
+.cost-card p{font-size:14.5px;color:var(--text-soft);}
+
+/* ---------- 治疗方式对比 ---------- */
+.treat-table{
+  width:100%;
+  border-collapse:collapse;
+  background:var(--white);
+  border-radius:var(--radius);
+  overflow:hidden;
+  box-shadow:var(--shadow);
+  font-size:14.5px;
+}
+.treat-table caption{
+  caption-side:top;
+  text-align:left;
+  font-size:13.5px;
+  color:var(--text-soft);
+  padding:0 0 12px;
+}
+.treat-table th,.treat-table td{
+  padding:14px 16px;
+  text-align:left;
+  border-bottom:1px solid var(--line);
+  vertical-align:top;
+}
+.treat-table thead th{
+  background:var(--main-dark);
+  color:#fff;
+  font-weight:600;
+  font-size:14.5px;
+  white-space:nowrap;
+}
+.treat-table tbody tr:nth-child(even){background:#fbfdfd;}
+.treat-table tbody tr:last-child td{border-bottom:none;}
+.treat-table td strong{color:var(--main-dark);}
+
+/* ---------- 影响因素 ---------- */
+.factor-layout{
+  display:grid;
+  grid-template-columns:1.1fr 1fr;
+  gap:32px;
+  align-items:start;
+}
+.factor-list{list-style:none;display:grid;gap:14px;}
+.factor-list li{
+  background:var(--white);
+  border:1px solid var(--line);
+  border-radius:12px;
+  padding:16px 18px;
+  font-size:14.8px;
+  color:var(--text-soft);
+}
+.factor-list li b{display:block;color:var(--main-dark);font-size:15.5px;margin-bottom:4px;}
+.aside-box{
+  background:var(--main-light);
+  border-radius:var(--radius);
+  padding:24px 22px;
+  border:1px solid #cfe6e3;
+}
+.aside-box h3{font-size:17px;color:var(--main-dark);margin-bottom:12px;}
+.aside-box ul{list-style:none;display:grid;gap:11px;}
+.aside-box li{
+  font-size:14.5px;
+  color:#3d4c4f;
+  padding-left:20px;
+  position:relative;
+}
+.aside-box li::before{
+  content:"·";
+  position:absolute;left:6px;top:-1px;
+  font-size:20px;color:var(--main);
+  font-weight:700;
+}
+
+/* ---------- 安全提示 ---------- */
+.alert-band{
+  background:var(--accent-light);
+  border:1px solid #f3d6cc;
+  border-radius:var(--radius);
+  padding:24px 24px 22px;
+  display:grid;
+  grid-template-columns:auto 1fr;
+  gap:18px;
+  align-items:start;
+}
+.alert-icon{
+  width:44px;height:44px;border-radius:12px;
+  background:var(--accent);color:#fff;
+  display:flex;align-items:center;justify-content:center;
+  font-size:22px;font-weight:700;flex:none;
+}
+.alert-band h2{font-size:19px;color:#8a3f2b;margin-bottom:8px;}
+.alert-band p{font-size:15px;color:#7a4a3b;}
+
+/* ---------- 医保与流程 ---------- */
+.flow{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:0;
+  counter-reset:step;
+}
+.flow-item{
+  position:relative;
+  padding:0 20px 0 0;
+}
+.flow-item::after{
+  content:"";
+  position:absolute;
+  top:17px;right:8px;
+  width:calc(100% - 44px);
+  height:2px;
+  background:linear-gradient(90deg,#bcdcd9,#e6f1f0);
+}
+.flow-item:last-child::after{display:none;}
+.flow-dot{
+  width:36px;height:36px;border-radius:50%;
+  background:var(--white);
+  border:2px solid var(--main);
+  color:var(--main-dark);
+  display:flex;align-items:center;justify-content:center;
+  font-weight:700;font-size:15px;
+  margin-bottom:14px;
+  position:relative;z-index:1;
+}
+.flow-item h3{font-size:16px;color:var(--main-dark);margin-bottom:7px;}
+.flow-item p{font-size:14.3px;color:var(--text-soft);}
+
+/* ---------- 就医建议卡片 ---------- */
+.tips-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:18px;
+}
+.tip-card{
+  background:var(--white);
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  padding:22px 20px;
+}
+.tip-card h3{
+  font-size:16.5px;
+  color:var(--main-dark);
+  margin-bottom:10px;
+  display:flex;align-items:center;gap:8px;
+}
+.tip-card h3 span{
+  width:6px;height:18px;border-radius:3px;background:var(--accent);display:inline-block;
+}
+.tip-card p{font-size:14.6px;color:var(--text-soft);}
+
+/* ---------- FAQ ---------- */
+.faq-list{display:grid;gap:12px;max-width:900px;}
+.faq-item{
+  background:var(--white);
+  border:1px solid var(--line);
+  border-radius:12px;
+  overflow:hidden;
+}
+.faq-item summary{
+  cursor:pointer;
+  padding:16px 20px;
+  font-size:16px;
+  font-weight:600;
+  color:var(--main-dark);
+  list-style:none;
+  display:flex;
+  justify-content:space-between;
+  gap:14px;
+  align-items:center;
+}
+.faq-item summary::-webkit-details-marker{display:none;}
+.faq-item summary::after{
+  content:"+";
+  font-size:20px;
+  color:var(--main);
+  font-weight:400;
+  flex:none;
+  transition:.2s;
+}
+.faq-item[open] summary::after{content:"−";}
+.faq-item .faq-body{
+  padding:0 20px 18px;
+  font-size:14.8px;
+  color:var(--text-soft);
+  border-top:1px dashed var(--line);
+  padding-top:14px;
+}
+
+/* ---------- 页脚 ---------- */
+.site-footer{
+  background:var(--main-dark);
+  color:#c4dedb;
+  padding:44px 0 26px;
+  font-size:14px;
+}
+.footer-grid{
+  display:grid;
+  grid-template-columns:1.4fr 1fr 1fr;
+  gap:30px;
+  padding-bottom:26px;
+  border-bottom:1px solid rgba(255,255,255,.14);
+}
+.footer-grid h4{color:#fff;font-size:15.5px;margin-bottom:12px;}
+.footer-grid p{color:#a9cdc9;font-size:13.8px;line-height:1.8;}
+.footer-links{list-style:none;display:grid;gap:9px;}
+.footer-links a{color:#bcdcd9;font-size:13.8px;}
+.footer-links a:hover{color:#fff;}
+.footer-bottom{
+  padding-top:18px;
+  font-size:12.8px;
+  color:#8fb6b2;
+  display:flex;
+  justify-content:space-between;
+  gap:14px;
+  flex-wrap:wrap;
+}
+
+/* ---------- 响应式 ---------- */
+@media (max-width:1000px){
+  .hero-grid{grid-template-columns:1fr;gap:28px;}
+  .cost-grid{grid-template-columns:repeat(2,1fr);}
+  .factor-layout{grid-template-columns:1fr;}
+  .flow{grid-template-columns:repeat(2,1fr);row-gap:28px;}
+  .flow-item:nth-child(2)::after{display:none;}
+  .tips-grid{grid-template-columns:1fr 1fr;}
+  .footer-grid{grid-template-columns:1fr 1fr;}
+}
+@media (max-width:720px){
+  .header-inner{height:62px;}
+  .main-nav{
+    display:none;
+    position:absolute;
+    top:62px;left:0;right:0;
+    background:#fff;
+    border-bottom:1px solid var(--line);
+    flex-direction:column;
+    padding:10px 16px 16px;
+    gap:2px;
+    box-shadow:0 10px 20px rgba(21,79,76,.08);
+  }
+  .main-nav.open{display:flex;}
+  .main-nav a{padding:11px 12px;}
+  .nav-toggle{display:block;}
+  .site-header{position:relative;}
+  .hero{padding:38px 0 34px;}
+  .hero h1{font-size:25px;}
+  .section{padding:40px 0;}
+  .section-head h2{font-size:22px;}
+  .cost-grid{grid-template-columns:1fr;}
+  .tips-grid{grid-template-columns:1fr;}
+  .flow{grid-template-columns:1fr;}
+  .flow-item::after{display:none;}
+  .alert-band{grid-template-columns:1fr;}
+  .treat-table{font-size:13.6px;}
+  .treat-table th,.treat-table td{padding:11px 12px;}
+  .footer-grid{grid-template-columns:1fr;}
+}
+</style>
+</head>
+<body>
+
+<div class="topbar">本文为健康科普与费用参考内容，不构成诊疗建议；出现腹痛、阴道流血等症状请<strong>立即就医</strong>。</div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <div class="brand">
+      <div class="brand-mark">孕</div>
+      <div class="brand-text">
+        <b>宫外孕费用参考</b>
+        <span>费用构成 · 影响因素 · 就医指南</span>
+      </div>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="展开导航">菜单</button>
+    <nav class="main-nav" id="mainNav">
+      <a href="#cost">费用构成</a>
+      <a href="#treat">治疗方式</a>
+      <a href="#factor">影响因素</a>
+      <a href="#insurance">医保与流程</a>
+      <a href="#tips">就医建议</a>
+      <a href="#faq">常见问题</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- 首屏 -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <h1>宫外孕的费用：先看<em>治疗方式</em>，再看医院与医保</h1>
+        <p class="hero-lead">
+          宫外孕（异位妊娠）的费用并没有一个统一数字。它主要取决于受精卵着床位置、是否已经破裂出血、采取保守观察、药物治疗还是手术，以及就诊医院的级别、所在地区和医保报销比例。理解费用是怎么构成的，比记住某个具体金额更有用。
+        </p>
+        <ul class="hero-points">
+          <li>费用差异最大的分水岭，是「未破裂」还是「已破裂急症」。</li>
+          <li>检查费、药费、手术与麻醉费、住院费，是四类主要支出方向。</li>
+          <li>医保通常按当地政策与项目目录报销，自付比例因地区而异。</li>
+          <li>任何情况下，生命安全优先于费用考虑，切勿因费用拖延就医。</li>
+        </ul>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#cost">了解费用构成</a>
+          <a class="btn btn-ghost" href="#faq">查看常见问题</a>
+        </div>
+      </div>
+
+      <aside class="quick-card">
+        <h2>就医前先弄清这几件事</h2>
+        <ul class="quick-list">
+          <li><b>是否已确诊</b>血 HCG 动态监测与超声是常用判断手段，确诊前的检查本身也会产生费用。</li>
+          <li><b>包块大小与 HCG 水平</b>这两项指标常影响医生选择药物还是手术方案。</li>
+          <li><b>有无腹腔内出血</b>一旦怀疑破裂出血，属于急症处理，费用与风险都会明显上升。</li>
+          <li><b>就诊医院级别</b>不同级别医院、不同地区的收费标准和医保政策存在差异。</li>
+        </ul>
+        <p class="quick-note">费用问题建议在门诊或住院时直接向医院收费处、医保办咨询，以医院提供的实际清单为准。</p>
+      </aside>
+    </div>
+  </section>
+
+  <!-- 费用构成 -->
+  <section class="section" id="cost">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">费用构成</span>
+        <h2>宫外孕的费用通常由哪几部分组成</h2>
+        <p>把账单拆开看，宫外孕相关支出大致集中在以下四类。不同治疗方案，这四部分的占比会明显不同。</p>
+      </div>
+      <div class="cost-grid">
+        <article class="cost-card">
+          <div class="num">1</div>
+          <h3>检查与诊断费</h3>
+          <p>包括血 HCG 定量检测、孕酮检测、经阴道或经腹部超声、血常规、血型与凝血功能等。若需反复复查 HCG 与超声以观察变化，检查次数增加，费用也会相应累积。</p>
+        </article>
+        <article class="cost-card">
+          <div class="num">2</div>
+          <h3>药物与治疗费</h3>
+          <p>保守治疗常涉及甲氨蝶呤等药物，需要按体重和指标计算剂量，并配合多次复查监测疗效与副作用。药物方案对早期、未破裂、指标符合条件的情况可能适用。</p>
+        </article>
+        <article class="cost-card">
+          <div class="num">3</div>
+          <h3>手术与麻醉费</h3>
+          <p>手术方式包括腹腔镜手术与开腹手术，术式可能是输卵管切除或输卵管开窗取胚等。费用通常与手术方式、麻醉方式、术中耗材使用情况相关。</p>
+        </article>
+        <article class="cost-card">
+          <div class="num">4</div>
+          <h3>住院与护理费</h3>
+          <p>包含床位费、护理费、术后用药、输液、换药及复查项目。住院天数受恢复情况、有无并发症影响，是总费用中变动较大的部分。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 治疗方式对比 -->
+  <section class="section alt" id="treat">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">治疗方式</span>
+        <h2>不同治疗路径，费用结构差别很大</h2>
+        <p>下表用于帮助理解不同方案在费用构成上的差异，具体适用条件必须由医生根据检查结果判断，切勿自行选择或放弃治疗。</p>
+      </div>
+      <table class="treat-table">
+        <caption>说明：以下为费用结构层面的定性比较，不代表任何具体金额或报价。</caption>
+        <thead>
+          <tr>
+            <th>治疗路径</th>
+            <th>常见适用情形</th>
+            <th>费用主要去向</th>
+            <th>需要留意</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>期待/保守观察</strong></td>
+            <td>指标较低且持续下降、包块较小、无明显症状，医生评估后认为可密切随访</td>
+            <td>以反复抽血与超声复查为主，通常不涉及手术费用</td>
+            <td>必须严格按医嘱复查，一旦指标反弹或出现症状需立即调整方案</td>
+          </tr>
+          <tr>
+            <td><strong>药物保守治疗</strong></td>
+            <td>早期未破裂、符合用药指征、生命体征平稳</td>
+            <td>药物费、多次 HCG 监测、住院或留观费用</td>
+            <td>疗程可能不止一次用药，监测周期较长，总费用会随复查次数变化</td>
+          </tr>
+          <tr>
+            <td><strong>腹腔镜手术</strong></td>
+            <td>多数需要手术干预的情况，创伤相对小、恢复相对快</td>
+            <td>手术费、麻醉费、腔镜耗材、住院与术后用药</td>
+            <td>耗材选择与术中情况会影响费用，具体以医院清单为准</td>
+          </tr>
+          <tr>
+            <td><strong>开腹手术</strong></td>
+            <td>情况紧急、出血量大或腹腔镜条件不具备时</td>
+            <td>手术费、麻醉费、输血及抢救相关费用、住院费</td>
+            <td>急症状态下费用与风险同步上升，抢救优先</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 影响因素 -->
+  <section class="section" id="factor">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">影响因素</span>
+        <h2>为什么同样叫宫外孕，花费可能相差很多</h2>
+        <p>费用差异来自病情本身、就医选择和地区政策三个层面，下面这些变量最值得关注。</p>
+      </div>
+      <div class="factor-layout">
+        <ul class="factor-list">
+          <li><b>是否发生破裂出血</b>未破裂时可择期处理，破裂后往往需要急诊手术、输血甚至重症监护，费用构成会明显复杂。</li>
+          <li><b>孕周与包块大小</b>发现越早、包块越小、HCG 水平越低，可供选择的方案越多，监测与干预的强度也可能不同。</li>
+          <li><b>着床部位</b>输卵管、卵巢、宫颈、剖宫产瘢痕等不同部位的异位妊娠，处理难度与方案存在差异。</li>
+          <li><b>医院级别与地区</b>不同地区、不同等级医疗机构的收费标准与医保目录执行情况不同。</li>
+          <li><b>手术方式与耗材</b>腹腔镜与开腹、不同耗材选择，都会体现在手术相关费用中。</li>
+          <li><b>住院天数与恢复情况</b>有无感染、贫血、术后并发症，会直接影响住院时长和后续治疗支出。</li>
+          <li><b>既往病史与身体状况</b>合并其他疾病时，可能需要额外的检查与用药。</li>
+        </ul>
+        <aside class="aside-box">
+          <h3>咨询费用时可以这样问</h3>
+          <ul>
+            <li>本次方案大致包含哪些收费项目？</li>
+            <li>哪些项目属于医保目录内、哪些需要自费？</li>
+            <li>如果治疗过程中需要调整方案，费用会如何变化？</li>
+            <li>复查需要几次，大概安排在什么时间？</li>
+            <li>出院结算时能否提供明细清单？</li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- 安全提示 -->
+  <section class="section alt">
+    <div class="wrap">
+      <div class="alert-band">
+        <div class="alert-icon">!</div>
+        <div>
+          <h2>出现这些情况，请立即就医，不要先算费用</h2>
+          <p>突发下腹剧痛、肛门坠胀感、头晕乏力、面色苍白、心慌、晕厥，或阴道流血量明显增多，都可能是异位妊娠破裂出血的表现。这类情况属于急症，需要尽快到有急诊和手术条件的医院就诊。任何关于费用的考虑，都应排在生命安全之后。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 医保与流程 -->
+  <section class="section" id="insurance">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">医保与结算</span>
+        <h2>从就诊到结算，大致会经历这几步</h2>
+        <p>医保能否报销、报销多少，取决于参保地政策、医院是否为定点机构以及具体项目是否在目录内。以下为一般性流程梳理。</p>
+      </div>
+      <div class="flow">
+        <div class="flow-item">
+          <div class="flow-dot">1</div>
+          <h3>挂号与检查</h3>
+          <p>妇科或急诊就诊，完成 HCG、超声等检查以明确诊断。保留好各项检查单据。</p>
+        </div>
+        <div class="flow-item">
+          <div class="flow-dot">2</div>
+          <h3>方案沟通</h3>
+          <p>医生根据指标与症状说明可选方案，可同时向医院医保办咨询报销范围与所需材料。</p>
+        </div>
+        <div class="flow-item">
+          <div class="flow-dot">3</div>
+          <h3>治疗与住院</h3>
+          <p>按方案接受药物或手术治疗，期间的费用会逐项计入住院或门诊账单。</p>
+        </div>
+        <div class="flow-item">
+          <div class="flow-dot">4</div>
+          <h3>结算与复查</h3>
+          <p>出院时按当地政策结算，之后按医嘱复查 HCG 等指标，确认恢复情况。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 就医建议 -->
+  <section class="section alt" id="tips">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">就医建议</span>
+        <h2>在费用之外，更该关注的三件事</h2>
+      </div>
+      <div class="tips-grid">
+        <article class="tip-card">
+          <h3><span></span>尽早明确诊断</h3>
+          <p>停经后出现腹痛或异常阴道流血，应尽快就诊检查。早期发现往往意味着更多治疗选择和更平稳的处理过程。</p>
+        </article>
+        <article class="tip-card">
+          <h3><span></span>按医嘱完成随访</h3>
+          <p>无论采取哪种方案，治疗后都需要复查 HCG 直至降至正常范围。随访不完整可能遗漏持续存在的风险。</p>
+        </article>
+        <article class="tip-card">
+          <h3><span></span>关注后续生育问题</span>
+          <p>如有再次妊娠计划，建议在医生指导下评估输卵管情况与相关风险因素，并做好孕早期检查。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">常见问题</span>
+        <h2>关于宫外孕费用的常见疑问</h2>
+      </div>
+      <div class="faq-list">
+        <details class="faq-item" open>
+          <summary>宫外孕的费用大概是多少？</summary>
+          <div class="faq-body">没有一个适用于所有人的固定数字。费用取决于治疗方式、是否破裂、医院级别、所在地区以及医保政策。同一城市不同医院之间也可能存在差异。建议直接向就诊医院的收费处或医保办咨询本院的收费标准和报销规则，获取的信息最准确。</div>
+        </details>
+        <details class="faq-item">
+          <summary>保守治疗一定比手术便宜吗？</summary>
+          <div class="faq-body">不一定。药物治疗往往需要多次抽血复查和较长的观察周期，若疗程延长或中途转为手术，总费用可能并不低于直接手术。医生选择方案的首要依据是病情是否适合，而不是费用高低。</div>
+        </details>
+        <details class="faq-item">
+          <summary>宫外孕的费用可以用医保报销吗？</summary>
+          <div class="faq-body">异位妊娠属于疾病治疗范畴，通常情况下相关住院和诊疗费用可按参保地医保政策结算，但具体报销比例、起付线、目录内外项目划分由各地政策决定。建议在入院时主动向医院医保办说明参保情况并咨询。</div>
+        </details>
+        <details class="faq-item">
+          <summary>急诊手术的费用会比择期手术高吗？</summary>
+          <div class="faq-body">急诊情况下往往伴随腹腔内出血，可能需要输血、抢救及更长时间的监护，费用构成会更复杂。但这属于病情决定的必要处理，不应因费用顾虑而延误就诊。</div>
+        </details>
+        <details class="faq-item">
+          <summary>治疗后还需要花哪些钱？</summary>
+          <div class="faq-body">治疗后通常需要按医嘱复查血 HCG 直至正常，部分人还需复查超声。若有贫血或感染等情况，可能需要额外的用药和检查。具体复查项目和频次由医生根据恢复情况安排。</div>
+        </details>
+        <details class="faq-item">
+          <summary>如何避免因费用问题影响治疗？</summary>
+          <div class="faq-body">可以在就诊时主动与医生和医院医保办沟通，了解方案构成、医保覆盖范围和自费部分，必要时咨询当地医保部门或医院的费用咨询服务。切勿因担心费用而推迟就诊或自行中断治疗。</div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h4>关于本站</h4>
+        <p>本站围绕宫外孕（异位妊娠）的费用构成、影响因素与就医流程提供科普性梳理，帮助读者在就诊前建立基本认知。所有内容仅供健康科普参考，不能替代医生的面诊与专业判断。</p>
+      </div>
+      <div>
+        <h4>内容导航</h4>
+        <ul class="footer-links">
+          <li><a href="#cost">费用构成</a></li>
+          <li><a href="#treat">治疗方式对比</a></li>
+          <li><a href="#factor">费用影响因素</a></li>
+          <li><a href="#insurance">医保与结算流程</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>重要提醒</h4>
+        <ul class="footer-links">
+          <li><a href="#tips">就医建议</a></li>
+          <li><a href="#faq">常见问题</a></li>
+          <li>急症请立即前往急诊</li>
+          <li>费用以医院实际清单为准</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>健康科普内容 · 不构成诊疗建议</span>
+      <span>如有不适，请及时就医</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var toggle = document.getElementById('navToggle');
+  var nav = document.getElementById('mainNav');
+  if(toggle && nav){
+    toggle.addEventListener('click', function(){
+      nav.classList.toggle('open');
+    });
+    nav.addEventListener('click', function(e){
+      if(e.target.tagName === 'A'){
+        nav.classList.remove('open');
+      }
+    });
+  }
+})();
+</script>
+
+</body>
+  </html>
